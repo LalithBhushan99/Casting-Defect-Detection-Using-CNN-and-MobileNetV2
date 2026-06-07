@@ -5,6 +5,7 @@ This project develops an automated defect detection system for industrial castin
 The system classifies casting products into:
 
 ✅ Defective Products
+
 ✅ Non-Defective Products
 
 using:
