@@ -190,6 +190,10 @@ MobileNetV2 achieved the highest performance and demonstrated superior generaliz
 <img width="649" height="644" alt="image" src="https://github.com/user-attachments/assets/39cb3ede-c520-4d1f-8bd3-97107eb89fd4" />
 
 
+<img width="790" height="812" alt="image" src="https://github.com/user-attachments/assets/f73805c0-e9a6-420c-b3d0-8d420dd30b14" />
+
+
+
 ## Interpretation
 
 The Grad-CAM visualization indicates that the model focused primarily on the defect region during classification. This suggests that the model learned meaningful defect-related features rather than relying on irrelevant background information.
