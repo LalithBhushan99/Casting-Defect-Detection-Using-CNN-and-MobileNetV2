@@ -22,7 +22,7 @@ Manual inspection of casting products is time-consuming, expensive, and prone to
 
 **Topic: Industrial Defect Detection**
 
-**Casting defect detection: ** Classifying the manufacturing defects accurately from images, improving product quality control.
+**Casting defect detection:** Classifying the manufacturing defects accurately from images, improving product quality control.
 
 https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- casting-product
 
