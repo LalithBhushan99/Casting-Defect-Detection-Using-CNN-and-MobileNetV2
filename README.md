@@ -1,25 +1,31 @@
-**📌 Project Overview**
+## 📌 Project Overview
+
 This project develops an automated defect detection system for industrial casting products using Deep Learning and Computer Vision.
 
 The system classifies casting products into:
+
 ✅ Defective Products
 ✅ Non-Defective Products
 
 using:
+
 - Custom Convolutional Neural Network (CNN)
 - MobileNetV2 Transfer Learning
 The objective is to reduce manual inspection effort and improve manufacturing quality control.
 
-**🎯 Problem Statement**
+## 🎯 Problem Statement
+
 Manual inspection of casting products is time-consuming, expensive, and prone to human error.The goal of this project is to develop an automated image classification system capable of detecting casting defects with high accuracy.
 
-**📂 Dataset Information**
+## 📂 Dataset Information
+
 **Topic: Industrial Defect Detection**
-**Casting defect detection: **Classifying the manufacturing defects accurately from images, improving product quality control.
+
+**Casting defect detection: ** Classifying the manufacturing defects accurately from images, improving product quality control.
 
 https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- casting-product
 
-**Dataset Statistics**
+## Dataset Statistics
 
 | Attribute | Value |
 |------------|--------|
@@ -39,7 +45,7 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 | Defective Testing Images | 453 |
 | Non-Defective Testing Images | 262 |
 
-**Dataset Summary**
+## Dataset Summary
 
 | Metric | Value |
 |---------|---------|
@@ -53,7 +59,7 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 | Best Model | MobileNetV2 |
 | Best Accuracy | 99.30% |
 
-**🔬 Research Questions**
+## 🔬 Research Questions
 
 ## RQ1
 
@@ -71,12 +77,11 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 
 **Can Grad-CAM explain the decision-making process of the trained MobileNetV2 model?**
 
-#  RQ5
+## RQ5
 
 **Does the trained model focus on defect-related regions rather than irrelevant background features?**
 
-**🧠 CNN Architecture**
-## CNN Architecture
+## 🧠 CNN Architecture
 
 ```text
 🖼 Input Image (224×224×3)
@@ -116,7 +121,8 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 (Defective / Non-Defective)
 ```
 
-**🚀 Methodology**
+## 🚀 Methodology
+
 **Data Preprocessing**
 - Image Resizing (224×224)
 - Pixel Normalization
@@ -133,7 +139,7 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 **Model 2**
 - MobileNetV2 Transfer Learning
 
-**📊 Evaluation Metrics**
+## 📊 Evaluation Metrics
 The models were evaluated using:
 Accuracy
 Precision
@@ -142,22 +148,24 @@ F1 Score
 Confusion Matrix
 Classification Report
 Grad-CAM Visualization
-**📈 Results**
-Model                Accuracy
-Custom CNN  ------->  97.90%
-MobileNetV2	------->  99.30%
 
-**Observation**
+## 📈 Results
+
+Model                Accuracy
+
+Custom CNN  ------->  97.90%
+MobileNetV2 ------->  99.30%
+
+## Observation
+
 MobileNetV2 achieved the highest performance and demonstrated superior generalization capability.
 
-**📷 Project Outputs**
+## 📷 Project Outputs
 Accuracy Curve
 
 E:\CNN assign\accuracy_curve.png
 
-
 Loss Curve
-
 
 E:\CNN assign\loss_curve.png
 
@@ -165,17 +173,15 @@ Confusion Matrix
 
 E:\CNN assign\confusion_matrix.png
 
-
 Grad-CAM Visualization
 
 E:\CNN assign\gradcam_mobilenetv2_overlay.png
 
-
-**Interpretation**
+## Interpretation
 
 The Grad-CAM visualization indicates that the model focused primarily on the defect region during classification. This suggests that the model learned meaningful defect-related features rather than relying on irrelevant background information.
 
-**🛠 Technologies Used**
+## 🛠 Technologies Used
 Python
 TensorFlow
 Keras
@@ -185,11 +191,11 @@ Matplotlib
 Seaborn
 Jupyter Notebook
 
-**🎯 Conclusion**
+## 🎯 Conclusion
 
 This project successfully developed a deep learning-based casting defect detection system.
 
-**Key findings:**
+## Key findings:
 
 - Custom CNN achieved 97.9% accuracy.
 - MobileNetV2 achieved 99.3% accuracy.
