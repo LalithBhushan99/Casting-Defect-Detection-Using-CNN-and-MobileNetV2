@@ -199,14 +199,15 @@ MobileNetV2 achieved the highest performance and demonstrated superior generaliz
 The Grad-CAM visualization indicates that the model focused primarily on the defect region during classification. This suggests that the model learned meaningful defect-related features rather than relying on irrelevant background information.
 
 ## 🛠 Technologies Used
-Python
-TensorFlow
-Keras
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Jupyter Notebook
+
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## 🎯 Conclusion
 
