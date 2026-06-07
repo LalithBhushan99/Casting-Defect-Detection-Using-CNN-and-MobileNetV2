@@ -134,27 +134,34 @@ https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of- c
 - Zoom
 - Width Shift
 - Height Shift
-**Models**
+## Models
+
 **Model 1**
+
 -Custom CNN
+
 **Model 2**
+
 - MobileNetV2 Transfer Learning
 
 ## 📊 Evaluation Metrics
+
 The models were evaluated using:
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
-Classification Report
-Grad-CAM Visualization
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+- Classification Report
+- Grad-CAM Visualization
 
 ## 📈 Results
 
 Model                Accuracy
 
 Custom CNN  ------->  97.90%
+
 MobileNetV2 ------->  99.30%
 
 ## Observation
@@ -162,6 +169,7 @@ MobileNetV2 ------->  99.30%
 MobileNetV2 achieved the highest performance and demonstrated superior generalization capability.
 
 ## 📷 Project Outputs
+
 Accuracy Curve
 
 E:\CNN assign\accuracy_curve.png
