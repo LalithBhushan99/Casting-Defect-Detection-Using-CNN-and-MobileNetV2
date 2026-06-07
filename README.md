@@ -170,21 +170,25 @@ MobileNetV2 achieved the highest performance and demonstrated superior generaliz
 
 ## 📷 Project Outputs
 
-Accuracy Curve
+- Accuracy Curve
 
-E:\CNN assign\accuracy_curve.png
+<img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/3983d0ec-7ddd-4967-83f0-8c5580b12bfb" />
 
-Loss Curve
 
-E:\CNN assign\loss_curve.png
+- Loss Curve
 
-Confusion Matrix
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/d6198059-71fc-4e3f-9645-16c2f306faed" />
 
-E:\CNN assign\confusion_matrix.png
 
-Grad-CAM Visualization
+- Confusion Matrix
 
-E:\CNN assign\gradcam_mobilenetv2_overlay.png
+<img width="519" height="435" alt="image" src="https://github.com/user-attachments/assets/71fe5eb0-d3d0-4318-8aac-ff0394761feb" />
+
+
+- Grad-CAM Visualization
+
+<img width="649" height="644" alt="image" src="https://github.com/user-attachments/assets/39cb3ede-c520-4d1f-8bd3-97107eb89fd4" />
+
 
 ## Interpretation
 
